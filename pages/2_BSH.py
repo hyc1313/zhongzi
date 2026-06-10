@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib 
 
-model = joblib.load('D:/MLModels/BSH_xgboost_optimized_model.joblib')
+model = joblib.load('BSH_xgboost_optimized_model.joblib')
 
 st.title("白沙蒿种子预测模型")
 
