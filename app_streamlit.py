@@ -146,13 +146,13 @@ st.markdown("""
 SPECIES_CONFIG = {
     "白沙蒿": {
         "emoji": "🌾",
-        "sub": "荒漠先锋 · 耐旱固沙",
+        "sub": "耐旱固沙 · 保持水土",
         "count": 15,
         "model_path": "BSH_xgboost_optimized_model.joblib"
     },
     "花棒": {
         "emoji": "🌸",
-        "sub": "固沙美花 · 耐盐碱",
+        "sub": "防风固沙 · 生态修复",
         "count": 29,
         "model_path": "HB_xgboost_optimized_model.joblib"   # 你已有的模型
     },
