@@ -277,11 +277,8 @@ def show_predict():
                 st.divider()
                 col_advice, col_conf = st.columns(2)
                 with col_advice:
-                    st.metric("📋 建议", "当前特征组合适宜发芽" if rate >= 70 else "建议优化特征值")
-                with col_conf:
-                    # 简单置信度（可自定义）
-                    conf = min(95, 70 + rate * 0.3)
-                    st.metric("📈 置信度", f"{conf:.0f}%")
+                    st.metric("📋 建议", "当前种子适宜发芽" if rate >= 70 else "发芽率较低")
+
     
     st.markdown('<div class="footer">🌿 预测结果仅供参考 · 实际发芽受多种因素影响</div>', unsafe_allow_html=True)
 
